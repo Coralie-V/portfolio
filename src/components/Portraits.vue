@@ -1,23 +1,29 @@
 <template>
   <div class="container">
-    <h1 class="row mt-5">2020 - The Hiking</h1>
+    <h1 class="row mt-5">2020 - Portraits de classe</h1>
     <hr class="row col-3">
 
     <div class="projet row my-5">
       <div class="texte col-12 col-md-8">
         <h2>Description du projet</h2>
-        <p>Le projet "Hiking" est un site WordPress que j'ai réalisé durant ma deuxième année de MMI, je l'ai conçu grâce au thème AVADA et il est entièrement responsive. Je devais réaliser ce site grâce à une maquette graphique fournie.</p>
+        <p>
+          Ce travail consistait à dessiner les portraits de mon groupe de TP en SVG sur Illustrator.
+        </p>
       </div>
+
       <div class="photo col-12">
-        <img class="image-projet" src="static/img/hiking-pc.png">
+        <img class="image-projet" src="static/img/portraits.png">
       </div>
+
+
       <div class="texte col-12 col-md-8">
         <h2>Outils</h2>
-        <p>WordPress (thème AVADA)</p>
+        <p>Adobe Illustrator : utilisation d'outils vectoriels et formes</p>
+        <p>PhpStorm : HTML/CSS & animation SVG</p>
+
       </div>
-      <div class="texte col-12 col-md-8">
-        <h2>Liens</h2>
-        <a href="https://hiking.coralievarrier.fr/">-> Lien vers le WordPress</a>
+
+
       </div>
     </div>
 
@@ -28,7 +34,7 @@
 
 <script>
 export default {
-  name: 'Hiking',
+    name: 'Affiches',
   data () {
     return {
       msg: ''
@@ -73,7 +79,7 @@ p{
 
 a{
   color: black;
-  display: inline;
+  display: block;
 }
 a:hover{
   color: #dc3545;

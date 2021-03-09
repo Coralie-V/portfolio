@@ -47,7 +47,7 @@
           <p>
             Ce travail consistait à dessiner les portraits de mon groupe de TP en SVG sur Illustrator.
           </p>
-          <router-link class="nav-link" to="/Indiglu">Voir les détails</router-link>
+          <router-link class="nav-link" to="/Portraits">Voir les détails</router-link>
         </div>
         <div class="photo col-12 col-md-5">
           <img class="image-projet" src="static/img/portraits.png">
