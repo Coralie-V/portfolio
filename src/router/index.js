@@ -4,6 +4,7 @@ import Accueil from '@/components/Accueil'
 import About from '@/components/About'
 import Contact from '@/components/Contact'
 import Hiking from '@/components/Hiking'
+import Indiglu from '@/components/Indiglu'
 
 
 Vue.use(Router)
@@ -13,7 +14,8 @@ export default new Router({
     {path: '/', name: 'Accueil', component: Accueil},
     {path: '/about', name: 'About', component: About},
     {path: '/contact', name: 'Contact', component: Contact},
-    {path: '/hiking', name: 'Hiking', component: Hiking}
+    {path: '/hiking', name: 'Hiking', component: Hiking},
+    {path: '/indiglu', name: 'Indiglu', component: Indiglu}
 
   ]
 })
