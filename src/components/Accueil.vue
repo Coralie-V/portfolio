@@ -3,6 +3,7 @@
     <div class="container">
       <h1 class="row mt-5">Mes projets</h1>
       <hr class="row col-3">
+
       <div class="projet row my-5">
         <div class="texte col-12 col-sm-7">
           <h2>2020 - The Hiking</h2>
@@ -10,7 +11,7 @@
           <router-link class="nav-link" to="/Hiking">Voir les détails</router-link>
         </div>
         <div class="photo col-12 col-sm-5">
-          <p>photo</p>
+          <img class="image-projet" src="static/img/hiking-pc.png">
         </div>
       </div>
 
@@ -23,7 +24,7 @@
           <router-link class="nav-link" to="/Affiches">Voir les détails</router-link>
         </div>
         <div class="photo col-12 col-sm-5">
-          <p>photo</p>
+          <img class="image-projet" src="static/img/affiches.jpg">
         </div>
       </div>
 
@@ -36,7 +37,7 @@
           <router-link class="nav-link" to="/Indiglu">Voir les détails</router-link>
         </div>
         <div class="photo col-12 col-sm-5">
-          <p>photo</p>
+          <img class="image-projet" src="static/img/indiglu.PNG">
         </div>
       </div>
 
@@ -49,7 +50,7 @@
           <router-link class="nav-link" to="/Indiglu">Voir les détails</router-link>
         </div>
         <div class="photo col-12 col-sm-5">
-          <p>photo</p>
+          <img class="image-projet" src="static/img/portraits.png">
         </div>
       </div>
 
@@ -83,6 +84,7 @@ h1, h2 {
 }
 .nav-link:hover{
   color: #dc3545;
+  border-color: #dc3545;
 }
 .container .projet p{
   margin: 1.5rem 0;
@@ -92,10 +94,16 @@ hr{
   background-color: #dc3545;
 
 }
-@media (min-width: 576px) {
-  .projet{
-    margin-bottom: 10rem!important;
-  }
+.image-projet{
+  margin-top: 2rem;
+  max-width: 400px;
+}
+
+.projet{
+  margin-bottom: 10rem!important;
+}
+p{
+  font-family: "Noto Sans";
 }
 
 

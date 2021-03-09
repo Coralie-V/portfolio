@@ -4,6 +4,11 @@
       <div class="nav-container">
         <nav class="navbar navbar-expand-md">
 
+          <router-link class="nav-link" to="/">
+            <img src="static/img/logo.png">
+          </router-link>
+
+
           <button class="navbar-toggler"
                   type="button"
                   data-toggle="collapse"
@@ -28,8 +33,14 @@
       </div>
     </header>
     <router-view/>
+
+    <footer>
+      <p>Coralie Varrier | Portfolio 2021</p>
+      <router-link class="nav-link" to="/Mentions">Mentions légales</router-link>
+    </footer>
   </div>
 </template>
+
 
 <script>
 export default {
@@ -44,10 +55,17 @@ export default {
 .navbar{
   padding: 1.2rem 1rem;
 }
+.navbar img{
+  width: 30px;
+}
 .nav-container a{
   font-family: Anton;
   color: #6c757d;
 }
+.nav-container a:hover{
+  color: #fffaf0;
+}
+
 .navbar-toggler-icon{
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
@@ -63,6 +81,21 @@ export default {
   .nav-container a{
     padding : 1.1rem 0;
   }
+}
+footer{
+  padding: 1rem;
+  background-color:#343a40;
+  text-align: center;
+}
+footer p{
+  color: #fffaf0;
+}
+footer a{
+  color:  #fffaf0;
+  font-weight: bold;
+}
+footer a:hover{
+  color:  #dc3545;
 }
 
 </style>
