@@ -11,7 +11,7 @@
           <router-link class="nav-link" to="/Hiking">Voir les détails</router-link>
         </div>
         <div class="photo col-12 col-md-5">
-          <img class="image-projet" src="static/img/hiking-pc.png">
+          <img class="image-projet" src="static/img/hiking-pc.png" alt="page d'accueil hiking pc">
         </div>
       </div>
 
@@ -24,7 +24,7 @@
           <router-link class="nav-link" to="/Affiches">Voir les détails</router-link>
         </div>
         <div class="photo col-12 col-md-5">
-          <img class="image-projet" src="static/img/affiches.jpg">
+          <img class="image-projet" src="static/img/affiches.jpg" alt="affiches">
         </div>
       </div>
 
@@ -37,7 +37,7 @@
           <router-link class="nav-link" to="/Indiglu">Voir les détails</router-link>
         </div>
         <div class="photo col-12 col-md-5">
-          <img class="image-projet" src="static/img/indiglu.PNG">
+          <img class="image-projet" src="static/img/indiglu.png" alt="page d'accueil indiglu, maquette version pc">
         </div>
       </div>
 
@@ -50,7 +50,7 @@
           <router-link class="nav-link" to="/Portraits">Voir les détails</router-link>
         </div>
         <div class="photo col-12 col-md-5">
-          <img class="image-projet" src="static/img/portraits.png">
+          <img class="image-projet" src="static/img/portraits.png" alt="images des portraits">
         </div>
       </div>
 
@@ -103,7 +103,7 @@ hr{
   margin-bottom: 10rem!important;
 }
 p{
-  font-family: "Noto Sans";
+  font-family: "Noto Sans", sans-serif;
 }
 .projet h2{
   font-weight: bold;

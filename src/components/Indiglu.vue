@@ -27,7 +27,7 @@
       </div>
 
       <div class="photo col-12">
-        <img class="image-projet" src="static/img/indiglu.png">
+        <img class="image-projet" src="static/img/indiglu.png" alt="page d'accueil indiglu, maquette version pc">
       </div>
 
 
@@ -89,7 +89,7 @@ hr{
   }
 }
 p{
-  font-family: "Noto Sans";
+  font-family: "Noto Sans", sans-serif;
 }
 .projet h2{
   font-weight: bold;

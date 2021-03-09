@@ -9,7 +9,7 @@
         <p>Le projet "Hiking" est un site WordPress que j'ai réalisé durant ma deuxième année de MMI, je l'ai conçu grâce au thème AVADA et il est entièrement responsive. Je devais réaliser ce site grâce à une maquette graphique fournie.</p>
       </div>
       <div class="photo col-12">
-        <img class="image-projet" src="static/img/hiking-pc.png">
+        <img class="image-projet" src="static/img/hiking-pc.png" alt="page d'accueil hiking version pc">
       </div>
       <div class="texte col-12 col-md-8">
         <h2>Outils</h2>
@@ -64,7 +64,7 @@ hr{
   }
 }
 p{
-  font-family: "Noto Sans";
+  font-family: "Noto Sans", sans-serif;
 }
 .projet h2{
   font-weight: bold;

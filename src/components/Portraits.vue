@@ -12,7 +12,7 @@
       </div>
 
       <div class="photo col-12">
-        <img class="image-projet" src="static/img/portraits.png">
+        <img class="image-projet" src="static/img/portraits.png" alt="image des portraits">
       </div>
 
 
@@ -20,9 +20,11 @@
         <h2>Outils</h2>
         <p>Adobe Illustrator : utilisation d'outils vectoriels et formes</p>
         <p>PhpStorm : HTML/CSS & animation SVG</p>
-
       </div>
 
+      <div class="texte col-12 col-md-8">
+        <h2>Liens</h2>
+        <a href="http://coralievarrier.fr/portraits/">-> Lien vers les portraits</a>
 
       </div>
     </div>
@@ -70,7 +72,7 @@ hr{
   }
 }
 p{
-  font-family: "Noto Sans";
+  font-family: "Noto Sans", sans-serif;
 }
 .projet h2{
   font-weight: bold;

@@ -12,7 +12,7 @@
       </div>
 
       <div class="photo col-12">
-        <img class="image-projet" src="static/img/affiches.jpg">
+        <img class="image-projet" src="static/img/affiches.jpg" alt="affiches">
       </div>
 
 
@@ -26,9 +26,6 @@
       </div>
     </div>
 
-
-
-  </div>
 </template>
 
 <script>
@@ -69,7 +66,7 @@ hr{
   }
 }
 p{
-  font-family: "Noto Sans";
+  font-family: "Noto Sans", sans-serif;
 }
 .projet h2{
   font-weight: bold;
