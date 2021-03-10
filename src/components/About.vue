@@ -7,10 +7,10 @@
           Je m'appelle Coralie, j'ai 19 ans, je suis actuellement en 2ème année de DUT MMI (Métiers du Multimédia et de l'Internet).
         </p>
         <p>
-          J'ai rejoint cette formation car
+          J'ai rejoint cette formation car j'étais intéressée par le design graphique et l'audiovisuel et maintenant j'aime un peu de tout.
         </p>
         <p>
-          Je suis passionnée par l'audiovisuel, les animes et les mangas.
+          Je suis également passionnée par les animes et les mangas.
         </p>
       </div>
       <div class="photo col-12 col-md-5">
