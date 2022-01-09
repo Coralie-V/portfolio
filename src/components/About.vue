@@ -154,6 +154,7 @@ p{
 }
 
 .info-cv{
+  display: flex;
   margin-bottom: 3em;
   place-content: center;
 }
