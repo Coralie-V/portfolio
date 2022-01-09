@@ -22,6 +22,9 @@
           <div class="collapse navbar-collapse" id="navigation">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
+                <router-link class="nav-link" to="/Projet">Mes projets</router-link>
+              </li>
+              <li class="nav-item">
                 <router-link class="nav-link" to="/About">À propos</router-link>
               </li>
               <li class="nav-item">
@@ -35,7 +38,7 @@
     <router-view/>
 
     <footer>
-      <p>Coralie Varrier | Portfolio 2021</p>
+      <p>Coralie Varrier | Portfolio 2021-2022</p>
       <router-link class="nav-link" to="/Mentions">Mentions légales</router-link>
     </footer>
   </div>
@@ -50,10 +53,10 @@ export default {
 
 <style>
 #app .nav-container{
-  background-color:#343a40;
+  background-color:#1f1f1f;
 }
 .navbar{
-  padding: 1.2rem 1rem;
+  padding: 1.2rem 3rem;
 }
 .navbar img{
   width: 30px;
@@ -84,7 +87,7 @@ export default {
 }
 footer{
   padding: 1rem;
-  background-color:#343a40;
+  background-color:#1f1f1f;
   text-align: center;
 }
 footer p{

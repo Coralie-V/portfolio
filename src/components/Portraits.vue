@@ -23,7 +23,7 @@
       </div>
 
       <div class="texte col-12 col-md-8">
-        <h2>Liens</h2>
+        <h2>Aperçu du travail</h2>
         <a href="http://coralievarrier.fr/portraits/">-> Lien vers les portraits</a>
 
       </div>

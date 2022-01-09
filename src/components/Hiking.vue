@@ -16,7 +16,7 @@
         <p>WordPress (thème AVADA)</p>
       </div>
       <div class="texte col-12 col-md-8">
-        <h2>Liens</h2>
+        <h2>Aperçu du travail</h2>
         <a href="https://hiking.coralievarrier.fr/">-> Lien vers le WordPress</a>
       </div>
     </div>

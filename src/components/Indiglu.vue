@@ -39,7 +39,7 @@
         <p>Papier et crayon</p>
       </div>
       <div class="texte col-12 col-md-8">
-        <h2>Liens</h2>
+        <h2>Aperçu du travail</h2>
         <a href="http://coralievarrier.fr/indiglu/indiglu.pdf">-> Lien vers la maquette graphique</a>
         <a href="https://indiglu.com/">-> Lien vers le site Indiglu d'origine</a>
 

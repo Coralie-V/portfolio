@@ -1,35 +1,95 @@
 <template>
   <div class="container">
     <div class="a-propos row my-5">
-      <div class="texte col-12 col-md-7">
-        <h2>Présentation</h2>
-        <p>
-          Je m'appelle Coralie, j'ai 19 ans, je suis actuellement en 2ème année de DUT MMI (Métiers du Multimédia et de l'Internet).
-        </p>
-        <p>
-          J'ai rejoint cette formation car j'étais intéressée par le design graphique et l'audiovisuel et maintenant j'aime un peu de tout.
-        </p>
-        <p>
-          Je suis également passionnée par les animes et les mangas.
-        </p>
-      </div>
-      <div class="photo col-12 col-md-5">
-        <img class="image-moi" src="static/img/photo-coralie.jpg" alt="photo de moi">
-      </div>
-      <div class="texte competences col-12 col-md-7">
+      
+      <div class="texte competences">
         <h2>Compétences</h2>
-        <p>HTML/CSS/JS</p>
-        <p>VueJs</p>
-        <p>Bootstrap</p>
-        <p>WordPress</p>
-        <p>Adobe Premiere</p>
-        <p>Adobe Photoshop</p>
-        <p>Adobe Illustrator</p>
-        <p>Adobe XD</p>
-        <p>Adobe After Effect</p>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="static/img/html.png" class="img-competence" alt="logo HTML">
+            <p>HTML 5</p>
+          </div>
+          <div class="col-sm-4">
+            <img src="static/img/css.png" class="img-competence" alt="logo CSS">
+            <p>CSS 3</p>
+          </div>
+          <div class="col-sm-4">
+            <img src="static/img/javascript.png" class="img-competence js" alt="logo JS">
+            <p>JavaScript</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="static/img/vue.png" class="img-competence" alt="logo Vue JS">
+            <p>Vue JS</p>
+          </div>
+          <div class="col-sm-4">
+            <img src="static/img/bootstrap.png" class="img-competence" alt="logo Bootstrap">
+            <p>Bootstrap</p>
+          </div>
+          <div class="col-sm-4">
+            <img src="static/img/wordpress.jpg" class="img-competence" alt="logo WordPress">
+            <p>WordPress</p>
+          </div>
+        </div>
+
       </div>
-      <a class="cv" href="http://coralievarrier.fr/coralie-varrier-cv.pdf">Accéder au CV</a>
+      <div class="texte logiciels">
+          <h2>Logiciels</h2>
+
+
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="static/img/premierepro.jpeg" class="img-logiciel" alt="logo Premiere">
+            <p>Adobe Premiere Pro</p>
+          </div>
+          <div class="col-sm-4">
+            <img src="static/img/aftereffect.jpeg" class="img-logiciel" alt="logo After Effects">
+            <p>Adobe After Effects</p>
+          </div>
+          <div class="col-sm-4">
+            <img src="static/img/adobeXD.jpg" class="img-logiciel" alt="logo Adobe XD">
+            <p>Adobe XD</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="static/img/photoshop.jpeg" class="img-logiciel" alt="logo Photoshop">
+            <p>Adobe Photoshop</p>
+          </div>
+          <div class="col-sm-4">
+            <img src="static/img/illustrator.png" class="img-logiciel" alt="logo Illustrator">
+            <p>Adobe Illustrator</p>
+          </div>
+          <div class="col-sm-4">
+            <img src="static/img/indesign.png" class="img-logiciel" alt="logo Adobe Indesign">
+            <p>Adobe Indesign</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="static/img/figma.png" class="img-logiciel" alt="logo Figma">
+            <p>Figma</p>
+          </div>
+          <div class="col-sm-4">
+            <img src="static/img/Phpstorm.png" class="img-logiciel" alt="logo PhpStorm">
+            <p>PhpStorm</p>
+          </div>
+          <div class="col-sm-4">
+            <img src="static/img/vscode.png" class="img-logiciel" alt="logoVisual Studio Code">
+            <p>Visual Studio Code</p>
+          </div>
+        </div>
+
+      </div>
     </div>
+      <div class="info-cv"> 
+        <a class="cv" href="http://coralievarrier.fr/coralie-varrier-cv.pdf">Télécharger mon CV</a>
+      </div>
 
   </div>
 </template>
@@ -58,37 +118,43 @@ hr{
   background-color: #dc3545;
 
 }
-.image-moi{
-  margin: 2rem 0;
-  max-width: 400px;
+
+.img-competence, .img-logiciel{
+  display: block;
+  margin: auto;
+  width: 45%;
+  padding: 20px;
+}
+.js{
+  width: 75% ;
 }
 
-.a-propos{
-  margin-bottom: 10rem!important;
-}
 p{
   font-family: "Noto Sans", sans-serif;
 }
+.row p{
+  text-align: center;
+}
+
 .a-propos h2{
   font-weight: bold;
 }
 
 @media (max-width: 576px) {
   .image-moi{
-    max-width: 300px;
+    max-width: 200px;
   }
 }
-.competences p{
-  display: inline-block;
-  border: black solid 1px;
-  border-radius: 80px;
-  padding: 0.30rem;
-  margin: 0.2rem;
-}
-.cv{
-  margin-top: 3.5rem;
-  margin-left: 1rem;
-  color: #dc3545;
 
+.cv{
+  color: #1f1f1f;
+  border: 2px solid #1f1f1f;
+  padding: 0.5rem 1.5rem;
+
+}
+
+.info-cv{
+  margin-bottom: 3em;
+  place-content: center;
 }
 </style>

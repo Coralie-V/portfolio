@@ -7,6 +7,8 @@ import Hiking from '@/components/Hiking'
 import Indiglu from '@/components/Indiglu'
 import Affiches from '@/components/Affiches'
 import Portraits from '@/components/Portraits'
+import Projet from '@/components/Projet'
+
 
 
 Vue.use(Router)
@@ -19,7 +21,8 @@ export default new Router({
     {path: '/hiking', name: 'Hiking', component: Hiking},
     {path: '/indiglu', name: 'Indiglu', component: Indiglu},
     {path: '/affiches', name: 'Affiches', component: Affiches},
-    {path: '/portraits', name: 'Portraits', component: Portraits}
+    {path: '/portraits', name: 'Portraits', component: Portraits},
+    {path: '/projet', name: 'Projet', component: Projet}
 
   ]
 })
