@@ -19,7 +19,7 @@
         <div class="texte col-12 col-md-7">
           <h2>2020 - Affiches Art Nouveau </h2>
           <p>
-            Ce travail consistait à reproduire des affiches de 3 styles de l'Art Nouveau : Roycroft, Glasgow et Secession Viennoise. J'ai reproduit la première et la dernière en vectoriel sur Illustrator et la deuxième par retouche d'images sur Photoshop.
+            Ce travail consistait à reproduire des affiches de 3 styles de l'Art Nouveau : Roycroft, Glasgow et Secession Viennoise. J'ai reproduit la deuxième et la troisième en vectoriel sur Illustrator et la première par retouche d'images sur Photoshop.
           </p>
           <router-link class="nav-link" to="/Affiches">Voir les détails</router-link>
         </div>

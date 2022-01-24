@@ -7,7 +7,7 @@
       <div class="texte col-12 col-md-8">
         <h2>Description du projet</h2>
         <p>
-          Ce travail consistait à reproduire des affiches de 3 styles de l'Art Nouveau : Roycroft, Glasgow et Secession Viennoise. J'ai reproduit la première et la dernière en vectoriel sur Illustrator et la deuxième par retouche d'images sur Photoshop.
+          Ce travail consistait à reproduire des affiches de 3 styles de l'Art Nouveau : Roycroft, Glasgow et Secession Viennoise. J'ai reproduit la deuxième et la troisième en vectoriel sur Illustrator et la première par retouche d'images sur Photoshop.
         </p>
       </div>
 
