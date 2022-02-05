@@ -13,7 +13,7 @@
           <img class="image-projet" src="static/img/hiking-pc.png" alt="page d'accueil hiking pc">
           </div>
           <div class="button">
-          <router-link class="nav-link" to="/Projet"> > Voir les détails</router-link>
+          <router-link class="nav-link" to="/Projet"> > Accéder à mes projets</router-link>
           </div>
         </div>
       </div>
@@ -77,7 +77,7 @@ p, .nav-link{
 
 .projets{
   padding: 3em;
-  background-color: #9b9183;
+  background-color: #9d9d9d;
   margin-bottom: 5em;
  
 }

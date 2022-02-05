@@ -8,6 +8,7 @@ import Indiglu from '@/components/Indiglu'
 import Affiches from '@/components/Affiches'
 import Portraits from '@/components/Portraits'
 import Projet from '@/components/Projet'
+import Mashoo from '@/components/Mashoo'
 
 
 
@@ -22,7 +23,9 @@ export default new Router({
     {path: '/indiglu', name: 'Indiglu', component: Indiglu},
     {path: '/affiches', name: 'Affiches', component: Affiches},
     {path: '/portraits', name: 'Portraits', component: Portraits},
-    {path: '/projet', name: 'Projet', component: Projet}
+    {path: '/projet', name: 'Projet', component: Projet},
+    {path: '/mashoo', name: 'Mashoo', component: Mashoo}
+
 
   ]
 })

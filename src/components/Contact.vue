@@ -21,8 +21,7 @@
 
       </div>
       <div class="texte col-12 col-md-7">
-        <h2>Mon mail</h2>
-        <a href="mailto:coralievarrier@gmail.com" class="mail">Me contacter</a>
+        <a href="mailto:coralievarrier@gmail.com" class="mail">Me contacter par mail</a>
 
       </div>
     </div>

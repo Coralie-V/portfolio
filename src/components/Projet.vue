@@ -6,6 +6,17 @@
 
       <div class="projet row my-5">
         <div class="texte col-12 col-md-7">
+          <h2>2022 - Mashoo</h2>
+          <p>Il s'agit d'un projet collectif réalisé en Licence Pro Webdesign dans lequel il fallait créer un site de précommande en ligne de chaussures personnalisables. Le projet a été réalisé sur Vue.js avec l'API Rest de WordPress.</p>
+          <router-link class="nav-link" to="/Mashoo">Voir les détails</router-link>
+        </div>
+        <div class="photo col-12 col-md-5">
+          <img class="image-projet" src="static/img/mashoo.png" alt="capture d'écran de la page d'accueil du site Mashoo">
+        </div>
+      </div>
+
+      <div class="projet row my-5">
+        <div class="texte col-12 col-md-7">
           <h2>2020 - The Hiking</h2>
           <p>Le projet "Hiking" est un site WordPress que j'ai réalisé durant ma deuxième année de MMI, je l'ai conçu grâce au thème AVADA et il est entièrement responsive. Je devais réaliser ce site grâce à une maquette graphique fournie.</p>
           <router-link class="nav-link" to="/Hiking">Voir les détails</router-link>
@@ -77,14 +88,13 @@ h1 {
   font-weight: normal;
 }
 .nav-link{
-  color: black;
-  border: black solid 1px;
   border-radius: 80px;
+  background-color:#413737 ;
+  color: white;
   display: inline;
 }
 .nav-link:hover{
-  color: #dc3545;
-  border-color: #dc3545;
+  background-color: #361515;
 }
 .container .projet p{
   margin: 1.5rem 0;

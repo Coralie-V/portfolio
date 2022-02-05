@@ -56,7 +56,7 @@ export default {
   background-color:#1f1f1f;
 }
 .navbar{
-  padding: 1.2rem 3rem;
+  padding: 1.2rem 8rem;
 }
 .navbar img{
   width: 30px;
