@@ -6,12 +6,34 @@
 
       <div class="projet row my-5">
         <div class="texte col-12 col-md-7">
+          <h2>2022 - La Providence</h2>
+          <p>Il s'agit d'un projet individuel réalisé en Licence Pro Webdesign qui consistait à faire une refonte d'un site Internet. J'ai choisi le site d'école et collège La Providence de Chèvremont. J'ai proposé une nouvelle charte graphique et j'ai réalisé les maquettes graphiques sur Figma ainsi que l'intégration du site final sur WordPress.</p>
+          <router-link class="nav-link" to="/Laprovidence">Voir les détails</router-link>
+        </div>
+        <div class="photo col-12 col-md-5">
+          <img class="image-projet" src="static/img/laProvidence.png" alt="mockup version ordinateur de la refonte La Providence">
+        </div>
+      </div>
+
+      <div class="projet row my-5">
+        <div class="texte col-12 col-md-7">
           <h2>2022 - Mashoo</h2>
           <p>Il s'agit d'un projet collectif réalisé en Licence Pro Webdesign dans lequel il fallait créer un site de précommande en ligne de chaussures personnalisables. Le projet a été réalisé sur Vue.js avec l'API Rest de WordPress.</p>
           <router-link class="nav-link" to="/Mashoo">Voir les détails</router-link>
         </div>
         <div class="photo col-12 col-md-5">
-          <img class="image-projet" src="static/img/mashoo.png" alt="capture d'écran de la page d'accueil du site Mashoo">
+          <img class="image-projet" src="static/img/mashoo.png" alt="mockup de la page d'accueil du site Mashoo">
+        </div>
+      </div>
+
+      <div class="projet row my-5">
+        <div class="texte col-12 col-md-7">
+          <h2>2021 - Léon</h2>
+          <p>Léon est un restaurant spécialisé dans les fruits de mer. J'ai réalisé un projet collectif durant ma Licence Pro Webdesign qui consistait à faire une refonte graphique de la page d'accueil et de la carte des repas de leur site. J'ai réalisé ce travail sur Figma.</p>
+          <router-link class="nav-link" to="/Leon">Voir les détails</router-link>
+        </div>
+        <div class="photo col-12 col-md-5">
+          <img class="image-projet" src="static/img/leon.png" alt="mockup version ordinateur de la refonte Léon">
         </div>
       </div>
 

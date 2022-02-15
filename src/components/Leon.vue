@@ -1,25 +1,22 @@
 <template>
   <div class="container">
-    <h1 class="row mt-5">2022 - Mashoo</h1>
+    <h1 class="row mt-5">2021 - Léon</h1>
     <hr class="row col-3">
 
     <div class="projet row my-5">
       <div class="texte col-12 col-md-8">
         <h2>Description du projet</h2>
-        <p>Il s'agit d'un projet collectif réalisé en Licence Pro Webdesign dans lequel il fallait créer un site de précommande en ligne de chaussures personnalisables. Le projet a été réalisé sur Vue.js avec l'API Rest de WordPress.</p>
+        <p>Léon est un restaurant spécialisé dans les fruits de mer. J'ai réalisé un projet collectif durant ma Licence Pro Webdesign qui consistait à faire une refonte graphique de la page d'accueil et de la carte des repas de leur site. J'ai réalisé ce travail sur Figma.</p>
       </div>
       <div class="photo col-12">
-        <img class="image-projet" src="static/img/mashoo.png" alt="capture d'écran de la page d'accueil de mashoo">
+        <img class="image-projet" src="static/img/leon.png" alt="Mockup de la page d'accueil de Léon">
       </div>
       <div class="texte col-12 col-md-8">
         <h2>Outils</h2>
         <p>Figma</p>
-        <p>Visual Studio Code</p>
-        <p>Gitkraken et Github</p>
-        <p>WordPress</p>
       </div>
       <div class="texte col-12 col-md-8">
-        <a class="button-redirection" href="https://mashoo.mathistogni.fr/">Voir le site</a>
+        <a class="button-redirection" href="https://www.figma.com/file/uE2Vy2jtgWY1JzJBTOuZvr/Maquette-L%C3%A9on?node-id=0%3A1">Voir la maquette</a>
       </div>
     </div>
 
@@ -30,7 +27,7 @@
 
 <script>
 export default {
-  name: 'Mashoo',
+  name: 'Leon',
   data () {
     return {
       msg: ''

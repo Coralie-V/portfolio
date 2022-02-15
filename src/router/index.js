@@ -9,6 +9,8 @@ import Affiches from '@/components/Affiches'
 import Portraits from '@/components/Portraits'
 import Projet from '@/components/Projet'
 import Mashoo from '@/components/Mashoo'
+import Laprovidence from '@/components/Laprovidence'
+import Leon from '@/components/Leon'
 
 
 
@@ -24,7 +26,11 @@ export default new Router({
     {path: '/affiches', name: 'Affiches', component: Affiches},
     {path: '/portraits', name: 'Portraits', component: Portraits},
     {path: '/projet', name: 'Projet', component: Projet},
-    {path: '/mashoo', name: 'Mashoo', component: Mashoo}
+    {path: '/mashoo', name: 'Mashoo', component: Mashoo},
+    {path: '/laprovidence', name: 'Laprovidence', component: Laprovidence},
+    {path: '/leon', name: 'Leon', component: Leon}
+
+
 
 
   ]
